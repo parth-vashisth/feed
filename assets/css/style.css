@@ -49,6 +49,12 @@
     padding-right: 12px;
 }
 
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .d-flex {
     display: flex;
 }
@@ -59,6 +65,10 @@
 
 .align-center {
     align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .Events {
@@ -138,6 +148,16 @@
     margin-top: 60px;
 }
 
+.gap10 {
+    gap: 10px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .Home {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -204,7 +224,7 @@
 }
 
 .more {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -213,12 +233,16 @@
 }
 
 .num {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 36px;
     font-weight: 600;
     color: #666666;
     line-height: 54px;
     text-align: center;
+}
+
+.mt-15 {
+    margin-top: 15px;
 }
 
 .box-2 {
@@ -230,6 +254,92 @@
     margin-top: 17px;
 }
 
-.box-2:hover{
+.box-2:hover {
     background-color: #01C8FF;
+}
+
+.line1 {
+    width: 190px;
+    height: 8px;
+    background: linear-gradient(to right, #2C49FE 85%, #01C8FF 15%);
+}
+
+.new {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+}
+
+.margin {
+    margin-top: 70px;
+}
+
+.post {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+}
+
+.user {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+}
+
+.fus {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: black;
+    margin-top: 45px;
+}
+
+.date {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+}
+
+.sec-2-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+}
+
+.postn-ab {
+    position: absolute;
+}
+
+.postn-rel {
+    position: relative;
+}
+
+.box-3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+    bottom: 15px;
+    right: 15px;
+}
+
+.greyline {
+    width: 1251px;
+    height: 2px;
+    background-color: #CCCCCC;
 }
