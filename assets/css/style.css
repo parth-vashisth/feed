@@ -125,6 +125,10 @@
     margin-top: 24px;
 }
 
+.w-25 {
+    width: 25%;
+}
+
 
 .col-3 {
     width: 25%;
@@ -150,7 +154,7 @@
 
 .Events {
     font-family: "Poppins", sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 48.6px;
     text-align: left;
@@ -159,7 +163,7 @@
 
 .Free {
     font-family: "Poppins", sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 48.6px;
     text-align: left;
@@ -197,8 +201,32 @@
     border: none;
 }
 
+.vh-50 {
+    height: 50%;
+}
+
+.vh-60 {
+    height: 55%;
+}
+
+.vh-40 {
+    height: 45%;
+}
+
+.z-2 {
+    z-index: -2;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
 .menu {
     box-shadow: 0px 8px 35px 0px #0000000D;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 70px;
 }
 
 .Home {
@@ -208,6 +236,7 @@
     line-height: 24px;
     text-align: left;
     color: black;
+    margin-top: 30px;
 }
 
 .doe {
@@ -240,10 +269,10 @@
 }
 
 .box {
-    width: 322px;
-    height: 138px;
+    max-width: 322px;
+    /* height: 138px; */
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0px 8px 35px 0px #0000001A;
     margin-top: 17px;
 }
@@ -289,8 +318,9 @@
 }
 
 .box-2 {
-    width: 171px;
-    height: 138px;
+    /* width: 171px; */
+    /* height: 138px; */
+    height: 90%;
     border-radius: 20px;
     padding: 30px;
     background-color: #EAEDFF;
@@ -378,23 +408,35 @@
     border-radius: 20px;
     background-color: white;
     bottom: 15px;
-    right: 0px;
+    right: 8px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.z-10 {
+    z-index: 10;
 }
 
 .greyline {
-    width: 1251px;
+    max-width: 1251px;
     height: 2px;
     background-color: #CCCCCC;
     margin-top: 20px;
+    width: 100%;
 }
 
 .cmnt-box {
     width: 100%;
-    height: 70px;
+    /* height: 70px; */
     border-radius: 35px;
     border: 1px solid #9CA1BE;
     margin-top: 30px;
     padding: 9px;
+    flex-wrap: wrap;
 }
 
 .cmnt-txt {
@@ -477,7 +519,8 @@
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    width: 346px;
+    max-width: 346px;
+    width: 100%;
 }
 
 .list-head {
@@ -507,7 +550,7 @@
     line-height: 18px;
     text-align: center;
     color: white;
-    height: 71px;
+    height: 100%;
     width: 100%;
     cursor: pointer;
     background: #2D3CAE87;
@@ -525,4 +568,158 @@
     line-height: 21px;
     text-align: left;
     color: white;
+}
+
+
+@media (min-width:576px) {
+    .col-sm-5 {
+        width: 41.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+
+@media (min-width:768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-md-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .cmnt-box {
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media (min-width:992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+.check-btn {
+    margin-top: 0px;
+}
+
+@media (max-width:768px) {
+    .display {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: beige;
+        z-index: 9;
+    }
+
+    input[type="checkbox"]:checked~ul.display {
+        right: 0;
+
+    }
+
+    label[for="nav-icon"] {
+        height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 10;
+        /* position: fixed; */
+        right: 2%;
+        margin-top: 10px;
+    }
+
+    label[for="nav-icon"]>span {
+        width: 100%;
+        height: 4px;
+        background-color: black;
+
+    }
 }
