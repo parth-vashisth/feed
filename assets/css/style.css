@@ -183,10 +183,6 @@
     width: 100%;
 }
 
-.nav-link:hover {
-    font-weight: 600;
-}
-
 .nav-btn {
     width: 118px;
     background: #2C49FE;
@@ -269,7 +265,7 @@
 }
 
 .box {
-    max-width: 322px;
+    /* max-width: 322px; */
     /* height: 138px; */
     border-radius: 20px;
     padding: 10px;
