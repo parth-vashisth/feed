@@ -321,6 +321,7 @@
     padding: 30px;
     background-color: #EAEDFF;
     margin-top: 17px;
+    cursor: pointer;
 }
 
 .box-2:hover {
@@ -445,6 +446,7 @@
     text-align: left;
     outline: none;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .cmmnt-btn {
@@ -536,6 +538,7 @@
     text-align: left;
     color: white;
     margin-top: 20px;
+    width: fit-content;
 }
 
 .show {
